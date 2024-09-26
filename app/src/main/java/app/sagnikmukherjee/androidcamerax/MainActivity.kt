@@ -20,7 +20,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             AndroidCameraXTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    Text(text = "Camera")
+                    Text(text = "Camera Controls")
                 }
             }
         }
